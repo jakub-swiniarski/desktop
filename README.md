@@ -1,5 +1,5 @@
 # My desktop config
-![image](https://github.com/jakub-swiniarski/desktop/assets/77209709/1943924c-d3b9-4704-b5b3-a6b3d5a902f2)
+![image](https://github.com/jakub-swiniarski/desktop/assets/77209709/bf587a2c-ae8f-403f-8f23-dcc26182eab0)
 
 # Install these too:
 - gammastep
