@@ -20,7 +20,7 @@ default_floating_border pixel
 ### Output configuration
 output * bg /home/js/images/background.png fill
 output HDMI-A-1 resolution 1920x1080 position 1920,0
-output eDP-1 disable
+output eDP-1 resolution 1920x1080 position 0,0 disable
 
 input * {
     xkb_layout "pl"
