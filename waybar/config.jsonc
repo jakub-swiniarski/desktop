@@ -5,7 +5,8 @@
     "spacing": 4,
     "modules-left": [
         "sway/workspaces",
-        "sway/mode"
+        "sway/mode",
+        "sway/scratchpad"
     ],
     "modules-center": [
         "sway/window"
@@ -17,6 +18,13 @@
         "clock",
         "tray"
     ],
+    "sway/scratchpad": {
+        "format": "{icon} {count}",
+        "show-empty": false,
+        "format-icons": ["", ""],
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
     "tray": {
         "spacing": 10
     },
