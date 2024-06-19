@@ -79,6 +79,10 @@ button:hover {
     margin-right: 0;
 }
 
+#mode {
+    padding: 0 5px 0 5px;
+}
+
 #clock {
     background-color: #b8c0ff;
 }
