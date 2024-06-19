@@ -59,8 +59,7 @@ button:hover {
 #battery,
 #temperature,
 #network,
-#pulseaudio,
-#tray {
+#pulseaudio {
     padding: 0 10px;
     color: #ffffff;
 }
@@ -81,27 +80,19 @@ button:hover {
 }
 
 #clock {
-    background-color: #24509e;
+    background-color: #5a108f;
 }
 
 #battery {
-    background-color: #1aaf30;
+    background-color: #ab51e3;
 }
 
 #battery.critical {
     background-color: #eb4d4b;
 }
 
-#network {
-    background-color: #2980b9;
-}
-
-#network.disconnected {
-    background-color: #eb4d4b;
-}
-
 #pulseaudio {
-    background-color: #79249e;
+    background-color: #6818a5;
 }
 
 #pulseaudio.muted {
@@ -109,22 +100,9 @@ button:hover {
 }
 
 #temperature {
-    background-color: #e07a06;
+    background-color: #8b2fc9;
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
-}
-
-#tray {
-    background-color: #2980b9;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
     background-color: #eb4d4b;
 }

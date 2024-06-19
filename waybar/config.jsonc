@@ -15,8 +15,7 @@
         "battery",
         "temperature",
         "pulseaudio",
-        "clock",
-        "tray"
+        "clock"
     ],
     "sway/scratchpad": {
         "format": "{icon} {count}",
@@ -24,9 +23,6 @@
         "format-icons": ["", ""],
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
-    },
-    "tray": {
-        "spacing": 10
     },
     "clock": {
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
