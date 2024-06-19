@@ -61,6 +61,7 @@ button:hover {
 #pulseaudio {
     padding: 0 10px;
     color: #000000;
+    margin-bottom: 3px;
 }
 
 #window,
