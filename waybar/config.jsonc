@@ -12,9 +12,9 @@
         "sway/window"
     ],
     "modules-right": [
-        "pulseaudio",
-        "temperature",
         "battery",
+        "temperature",
+        "pulseaudio",
         "clock",
         "tray"
     ],
