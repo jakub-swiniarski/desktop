@@ -149,10 +149,10 @@ bindsym $mod+z mode "resize"
 #     }
 # }
 
-client.focused          #b4befeee #b4befe99 #ffffffff #b4befeee #b4befeee
-client.focused_inactive #b4befeee #b4befe99 #ffffffff #b4befeee #b4befeee
+client.focused          #b4befeff #b4befe99 #ffffffff #b4befeff #b4befeff
+client.focused_inactive #b4befeff #b4befe99 #ffffffff #b4befeff #b4befeff
 client.unfocused        #b4befe55 #b4befe55 #ffffffff #b4befe55 #b4befe55
-client.urgent           #b4befeee #b4befe99 #ffffffff #b4befeee #b4befeee
-client.placeholder      #b4befeee #b4befe99 #ffffffff #b4befeee #b4befeee
+client.urgent           #b4befeff #b4befe99 #ffffffff #b4befeff #b4befeff
+client.placeholder      #b4befeff #b4befe99 #ffffffff #b4befeff #b4befeff
 
 include /etc/sway/config.d/*
