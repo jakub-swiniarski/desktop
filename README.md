@@ -4,6 +4,3 @@
 # Install these too
 - gammastep
 - swaybg
-
-# Credits
-My Wofi style is a slightly modified version of Mocha from this repository: https://github.com/quantumfate/wofi
