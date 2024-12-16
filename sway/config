@@ -20,9 +20,8 @@ default_border pixel 2
 default_floating_border pixel
 
 ### Output configuration
-output * bg /home/js/images/background.png fill
-# output HDMI-A-1 mode 1920x1080@60Hz position 0,0
-output eDP-1 mode 1920x1080@60Hz position 1920,0
+# output * bg <path to background img> fill
+# output <name> mode <width>x<height>@<refresh rate>Hz position <X>,<Y>
 
 ### Input configuration
 input * {
