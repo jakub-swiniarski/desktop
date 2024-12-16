@@ -1,26 +1,28 @@
 ### Variables
 set $mod Mod4
-
 set $left h
 set $down j
 set $up k
 set $right l
-
 set $term footclient
 set $menu wofi --show drun
 
+### Autostart
 exec foot -s
 exec waybar
 exec gammastep -O 4500
 
+### Font
 font pango:monospace 12
+
+### Border
 default_border pixel 2
 default_floating_border pixel
 
 ### Output configuration
 output * bg /home/js/images/background.png fill
-output HDMI-A-1 mode 1920x1080@60Hz position 1920,0
-output eDP-1 mode 1920x1080@60Hz position 0,0 disable
+# output HDMI-A-1 mode 1920x1080@60Hz position 0,0
+output eDP-1 mode 1920x1080@60Hz position 1920,0
 
 ### Input configuration
 input * {
@@ -136,19 +138,7 @@ mode "resize" {
 }
 bindsym $mod+z mode "resize"
 
-# bar {
-#     position top
-# 
-#     status_command while date +'%I:%M %p'; do sleep 60; done
-# 
-#     colors {
-#         statusline #ffffffff
-#         background #2b303bcc
-#         focused_workspace   #79249eee #79249eee #ffffff
-#         inactive_workspace #79249e00 #79249e00 #ffffff
-#     }
-# }
-
+### Colors
 client.focused          #b4befeff #b4befe99 #ffffffff #b4befeff #b4befeff
 client.focused_inactive #b4befeff #b4befe99 #ffffffff #b4befeff #b4befeff
 client.unfocused        #b4befe55 #b4befe55 #ffffffff #b4befe55 #b4befe55
