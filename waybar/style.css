@@ -56,7 +56,6 @@ button:hover {
 
 #clock,
 #battery,
-#temperature,
 #pulseaudio {
     padding: 0 10px;
     color: #000000;
@@ -87,19 +86,14 @@ button:hover {
 }
 
 #battery {
-    background-color: #ffd6ff;
+    background-color: #e7c6ff;
 }
 
 #pulseaudio {
     background-color: #c8b6ff;
 }
 
-#temperature {
-    background-color: #e7c6ff;
-}
-
 #battery.critical,
-#temperature.critical,
 #pulseaudio.muted {
     background-color: #fa7070;
 }

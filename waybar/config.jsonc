@@ -13,7 +13,6 @@
     ],
     "modules-right": [
         "battery",
-        "temperature",
         "pulseaudio",
         "clock"
     ],
@@ -25,14 +24,7 @@
         "tooltip-format": "{app}: {title}"
     },
     "clock": {
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
-    },
-    "temperature": {
-        "thermal-zone": 9,
-        "critical-threshold": 80,
-        "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
     },
     "battery": {
         "states": {
